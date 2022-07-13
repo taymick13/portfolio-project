@@ -37,7 +37,13 @@ p {
   line-height: 1.5;
   text-align: center;
 }
-
+img {
+  margin: 5px;
+}
+.container {
+  text-align: center;
+  display: block;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -97,4 +103,12 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
 }
