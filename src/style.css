@@ -104,6 +104,9 @@ img {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.container {
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   h1,
