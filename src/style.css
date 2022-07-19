@@ -113,8 +113,10 @@ img {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.navbar {
-  background: var(--primary-color);
+.taylor {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
