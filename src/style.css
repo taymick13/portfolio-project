@@ -116,6 +116,10 @@ p {
 .btn {
   font-size: 24px;
 }
+
+.work-type h3 {
+  font-size: 16px;
+}
 @media (max-width: 768px) {
   h1,
   h2,
