@@ -162,6 +162,10 @@ footer .social-links a:hover {
   background: (--primary-color);
 }
 
+.coded-by {
+  padding: 5px;
+}
+
 @media (max-width: 768px) {
   h1,
   h2,
