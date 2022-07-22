@@ -163,7 +163,11 @@ footer .social-links a:hover {
 }
 
 .coded-by {
-  padding: 5px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 @media (max-width: 768px) {
