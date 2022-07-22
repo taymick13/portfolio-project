@@ -113,6 +113,22 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+.primary-link:hover {
+  color: black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+.contact-me {
+  display: block;
+  margin: 0 auto;
+}
+
+.work-together {
+  font-size: 45px;
+  margin: 40px;
+}
+
 .btn-branding {
   border-radius: 4px;
   padding: 20px 15px;
@@ -129,6 +145,21 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--third-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: black;
+  background: (--primary-color);
 }
 
 @media (max-width: 768px) {
