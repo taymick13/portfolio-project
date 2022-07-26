@@ -95,7 +95,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -162,12 +162,20 @@ footer .social-links a:hover {
   background: (--primary-color);
 }
 
-.coded-by {
+footer .coded-by {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+footer .page-code {
+  font-size: 14px;
+}
+
+footer .open-source-link {
+  text-decoration: none !important;
+  color: white;
 }
 
 @media (max-width: 768px) {
